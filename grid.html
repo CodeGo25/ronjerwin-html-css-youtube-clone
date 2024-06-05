@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="grid.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Practice</title>
+</head>
+
+<body style="padding-bottom: 1000px;">
+  <div style="display: grid;
+  grid-template-columns: 200px 75px;">
+ <div style="background-color: lightgoldenrodyellow;">200px</div>
+ <div style="background-color: lightcoral;">75px</div>
+</div>
+
+<div style="margin-top: 50px;
+display: grid;
+grid-template-columns: 50px 1fr 75px">
+  <div style="background-color: lightblue;">col1</div>
+  <div style="background-color: lightpink;">col2</div>
+  <div style="background-color: lightsalmon;">col3</div>
+</div>
+
+<div style="margin-top: 50px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+column-gap: 20px;
+row-gap: 10px;
+margin-bottom: 50px;">
+  <div style="background-color: lightcoral;">col1</div>
+  <div style="background-color: lightblue;">col2</div>
+  <div style="background-color: lightpink;">col3</div>
+  <div style="background-color: lightgray;">col4</div>
+  <div style="background-color: lightcoral;">col1</div>
+  <div style="background-color: lightblue;">col2</div>
+  <div style="background-color: lightpink;">col3</div>
+  <div style="background-color: lightgray;">col4</div>
+</div>
+
+
+<div class="profile-grid">
+  <div class="profile">
+    <div>
+      <img class="profile-pic" src="thumbnails/channel-1.jpeg">
+    </div>
+    <div>
+      <p class="name">Oliver</p>
+    </div>
+    <div class="mutual-info-grid">
+      <div class="mutual-picture">
+        <img class="mutuals" src="thumbnails/channel-2.jpeg">
+      </div>
+      <div class="mutual-friends">
+        <p class="friends">2 mutual friends</p>
+      </div>
+    </div>
+    <div>
+      <button class="add-btn">Add Friend</button>
+    </div>
+  </div>
+  <div class="profile-grid">
+    <div class="profile">
+      <div>
+        <img class="profile-pic" src="thumbnails/channel-1.jpeg">
+      </div>
+      <div>
+        <p class="name">Oliver</p>
+      </div>
+      <div class="mutual-info-grid">
+        <div class="mutual-picture">
+          <img class="mutuals" src="thumbnails/channel-2.jpeg">
+        </div>
+        <div class="mutual-friends">
+          <p class="friends">2 mutual friends</p>
+        </div>
+      </div>
+      <div>
+        <button class="add-btn">Add Friend</button>
+      </div>
+    </div>
+    <div class="profile-grid">
+      <div class="profile">
+        <div>
+          <img class="profile-pic" src="thumbnails/channel-1.jpeg">
+        </div>
+        <div>
+          <p class="name">Oliver</p>
+        </div>
+        <div class="mutual-info-grid">
+          <div class="mutual-picture">
+            <img class="mutuals" src="thumbnails/channel-2.jpeg">
+          </div>
+          <div class="mutual-friends">
+            <p class="friends">2 mutual friends</p>
+          </div>
+        </div>
+        <div>
+          <button class="add-btn">Add Friend</button>
+        </div>
+      </div>
+  </div>
+  
+  <div class="notifs">
+    <div>
+      <div>
+        <p class="home">Home</p>
+      </div>
+      <div>
+        <button class="btn-14">14</button>
+      </div>
+    </div>
+    <div>
+      <div>
+        <p class="notification">Notification</p>
+      </div>
+      <div>
+        <button class="btn-3">3</button>
+      </div>
+    </div>
+    <div>
+      <div>
+        <p class="messages">Messages</p>
+      </div>
+      <div>
+        <button class="btn-5">5</button>
+      </div>
+    </div>
+  </div>
+  
+
+
+</body>
+</html>

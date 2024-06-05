@@ -1,0 +1,180 @@
+.tahoma {
+  font-family: tahoma;
+  font-weight: bold;
+}
+.big-deal {
+  font-family: arial;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.sales-end {
+font-family: arial;
+font-style: italic;
+color: red;
+margin-top: 0;
+}
+
+.html-css {
+font-family: verdana;
+font-weight: bold;
+margin-bottom: 5px;
+}
+.b-p {
+font-family: verdana;
+color: grey;
+margin-top: 0;
+margin-bottom: 10px;
+}
+.course {
+font-family: verdana;
+width: 300px;
+}
+.get-started {
+font-family: verdana;
+background-color: green;
+color: white;
+padding: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.shop-desc {
+font-family: arial;
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+margin-bottom: 0;
+}
+.apple {
+font-family: arial;
+font-size: 13px;
+text-align: center;
+}
+.learn-more {
+font-family: arial;
+color: rgb(2, 69, 253);
+cursor: pointer;
+line-height: 35px;
+}
+.learn-more:hover {
+text-decoration: underline;
+}
+.new {
+font-family: arial;
+font-weight: bold;
+color: rgb(192, 109, 0);
+text-align: center;
+margin-bottom: 10px;
+}
+.mac {
+font-family: arial;
+text-align: center;
+font-weight: bold;
+margin-top: 0;
+margin-bottom: 5px;
+}
+.super {
+font-family: arial;
+text-align: center;
+font-size: 29px;
+font-weight: bold;
+margin-top: 0;
+margin-bottom: 10px;
+}
+.price {
+font-family: arial;
+text-align: center;
+margin-top: 0;
+margin-bottom: 0;
+font-size: 13px;
+margin-top: 0;
+margin-bottom: 10px;
+}
+.buy-btn {
+font-family: arial;
+background-color: rgb(78, 78, 241);
+color: white;
+padding: 10px;
+padding-left: 20px;
+padding-right: 20px;
+border: none;
+border-radius: 20px;
+margin-left: 290px;
+cursor: pointer;
+transition: opacity 0.15s;
+}
+.buy-btn:hover {
+opacity: 0.9;
+}
+.buy-btn:active {
+opacity: 0.7;
+}
+.num {
+font-family: arial;
+font-size: 30px;
+margin-bottom: 5px;
+}
+.usd {
+font-family: arial;
+font-size: 14px;
+color: grey;
+margin-bottom: 0;
+}
+.discount {
+font-family: arial;
+color: green;
+font-size: 14px;
+margin-top: 0;
+margin-bottom: 0;
+}
+.afters {
+font-family: arial;
+color: grey;
+font-size: 14px;
+}
+.minus {
+font-family: arial;
+color: red;
+
+}
+.code-camp {
+font-family: arial;
+font-weight: bold;
+margin-bottom: 8px;
+}
+.free {
+color: grey;
+font-weight: normal;
+}
+.text-desc {
+font-family: arial;
+width: 500px;
+margin-top: 0;
+margin-bottom: 10px;
+}
+.desc-foot {
+font-family: arial;
+font-size: 15px;
+margin-top: 0;
+}
+.link-desc {
+color: rgb(0, 191, 255);
+cursor: pointer;
+}
+.link-desc:hover {
+text-decoration: underline;
+}
+.model {
+  font-family: montserrat;
+  font-size: 30px;
+  text-align: center;
+}
+.order {
+  font-family: montserrat;
+  text-align: center;
+}
+.touch {
+  text-decoration: underline;
+  cursor: pointer;
+}
